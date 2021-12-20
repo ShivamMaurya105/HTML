@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navlist img
+{
+    width: 100px;
+    float: left;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    padding: 10px;
+}
+ul li{
+    display: inline;
+    padding: 10px;
+    
+}
+.welcome{
+    text-align: center;
+    padding: 100px;
+    color:rgb(255, 13, 235);
+   
+}
+.login{
+    text-align: center;
+    color:black;
+    align-content: center;
+}
+.bt{
+    
+    
+}
+
+@media screen AND (max-width: 742px){ 
+    
+        ul
+        {
+            display: none;
+        }
+        .welcome{
+            color: red;
+        }
+    }
+    
